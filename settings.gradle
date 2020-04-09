@@ -1,0 +1,3 @@
+rootProject.name='SqlParser-Android'
+include ':sample'
+include ':sqlparser'
