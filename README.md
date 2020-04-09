@@ -7,6 +7,10 @@ A framework used to parser a Sql script file or mass string long Sql script to a
 fully support protocol:
 http://www.contrib.andrew.cmu.edu/~shadow/sql/sql1992.txt
 
+The original purpose was fixed a bug in `WatermelonDB`(https://github.com/Nozbe/WatermelonDB) when it try to parser a mass sql script string got crash if it contian a grammar such as `create trigger` with double ';', so I created this lib to who also had same problem.
+please feel free to commit issue:)
+
+
 ## Setup
 #### Gradle
 Step 1. Add it in your root build.gradle at the end of repositories:
